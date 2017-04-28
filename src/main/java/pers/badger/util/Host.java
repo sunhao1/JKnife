@@ -45,9 +45,9 @@ public class Host {
                 ipAddress[i] = Integer.parseInt(ipStrSplit[i]);
             }
         }
-        this.A = ipAddress[0];
-        this.B = ipAddress[1];
-        this.C = ipAddress[2];
-        this.D = ipAddress[3];
+        this.A = ipAddress[0] > 255 ? 255 : ipAddress[0];
+        this.B = ipAddress[1] > 255 ? 255 : ipAddress[1];
+        this.C = ipAddress[2] > 255 ? 255 : ipAddress[2];
+        this.D = ipAddress[3] > 255 ? 255 : ipAddress[3];
     }
 }

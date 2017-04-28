@@ -40,7 +40,7 @@ public class NetScan extends Thread {
             } catch (IOException e) {
             }
         }
-        System.out.println("IP scan finished!(" + Integer.toString(this.portStart) + ")" + Integer.toString(--threadCount));
+//        System.out.println("IP scan finished!(" + Integer.toString(this.portStart) + ")" + Integer.toString(--threadCount));
     }
 
     private String getIP(String hostName) {

@@ -7,7 +7,7 @@ import pers.badger.dic.HostDicGen;
  */
 public class TestDicGen {
     public static void main(String[] args) {
-        HostDicGen hostDicGen = new HostDicGen("223.131.0.0-223.131.60.250");
+        HostDicGen hostDicGen = new HostDicGen("172.16.1.0-172.16.250.250");
         hostDicGen.process();
     }
 }
