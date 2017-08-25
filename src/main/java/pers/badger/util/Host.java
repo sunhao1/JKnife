@@ -9,6 +9,9 @@ public class Host {
     private int[] ipAddress;
 
     private int A;
+    private int B;
+    private int C;
+    private int D;
 
     public int getA() {
         return A;
@@ -26,9 +29,7 @@ public class Host {
         return D;
     }
 
-    private int B;
-    private int C;
-    private int D;
+
 
 
     public Host(String hostName) {

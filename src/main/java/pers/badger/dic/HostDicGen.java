@@ -27,10 +27,6 @@ public class HostDicGen {
         this.hostEnd = hostArea.split("-")[1];
     }
 
-    public HostDicGen() {
-
-    }
-
     public void process() {
         Host startHost = new Host(hostStart);
         Host endHost = new Host(hostEnd);
